@@ -1,0 +1,34 @@
+
+  .auth-card .image-side {
+    width: 40%;
+    background: url("../admin/img/login-balloon.jpg") no-repeat center top;
+    background-size: cover;
+    padding: 80px 40px; }
+    .auth-card .image-side .h3 {
+      line-height: 0.8rem; }
+  .auth-card .form-side {
+    width: 60%;
+    padding: 80px; }
+  @media (max-width: 991px) {
+    .auth-card {
+      flex-direction: column; }
+      .auth-card .image-side {
+        width: 100%;
+        padding: 60px; }
+      .auth-card .form-side {
+        width: 100%;
+        padding: 60px; } }
+  @media (max-width: 767px) {
+    .auth-card p.h2 {
+      font-size: 1.6rem; } }
+  @media (max-width: 575px) {
+    .auth-card {
+      flex-direction: column; }
+      .auth-card .image-side {
+        padding: 35px 30px; }
+      .auth-card .form-side {
+        padding: 35px 30px; }
+      .auth-card .logo-single {
+        margin-bottom: 20px; }
+      .auth-card p.h2 {
+        font-size: 1.4rem; } }
